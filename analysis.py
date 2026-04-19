@@ -1,7 +1,3 @@
-import sys    
-import os  # trailing whitespace here ^
-
-unused = 42
-
-def analyze(): 
-    print("Bad code!")
+def analyze():
+    unused = 42  # Ruff violation: unused var
+    print("Analysis")  # Ruff violation: trailing spaces
