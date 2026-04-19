@@ -1,7 +1,5 @@
-import sys    
-import os  # trailing whitespace^
+import os
+import sys
 
-unused = 42
-
-def analyze(): 
-    print("Bad code!")
+def analyze():
+    print("Good code!")
